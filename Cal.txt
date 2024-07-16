@@ -1,0 +1,11 @@
+class Cal{
+static int counter = 0;
+	public cal(){
+		counter++;
+	}
+public static void main(String[] args){
+	Cal c1 = new Cal();
+	Cal c2 = new Cal();
+	System.out.println(Cal.cal);	
+}
+}
